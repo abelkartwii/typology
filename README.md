@@ -1,7 +1,7 @@
-## typology
+# typology
 Statistical analyses and data visualizations for the four most popular personality classifications: astrology, the Myers-Briggs Test Indicator (MBTI), the Enneagram of Personality, and the four Hogwarts houses from Harry Potter. From these four types, could we find any correlation or patterns between them?
 
-# data
+## data
 Dataset used is Rev. Emmy Kegler's fantastic [crowd-sourced database](https://docs.google.com/forms/d/e/1FAIpQLScyC83C8slwxbbryc4bGHoM3SVGeDg6-o0Yos3FMF7zN5nquw/viewform) of individuals' personality sets. n = 2800, 26% or 725 of which are INFJs (mistyped children? we'll find out...)
 
 We're trying to find patterns between:
@@ -13,5 +13,5 @@ We're trying to find patterns between:
 
 A safe guess would be that out of all four types, the strongest correlation will be found between MBTI and Enneagram.
 
-# how to
+## how to
 Two scripts are available: one for ggplot2 to do its business, and one that is purely statistical analyses (still a young WIP). Both scripts contain the data transformation script needed to clean up the dataset a bit. 
