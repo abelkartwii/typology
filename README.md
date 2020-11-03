@@ -14,4 +14,12 @@ We're trying to find patterns between:
 A safe guess would be that out of all four types, the strongest correlation will be found between MBTI and Enneagram.
 
 ## how to
-Two scripts are available: one for ggplot2 to do its business, and one that is purely statistical analyses (still a young WIP). Both scripts contain the data transformation script needed to clean up the dataset a bit. 
+Two scripts are available: one for ggplot2 to do its business (plot), and one that is purely statistical analyses (stats; still a young WIP). Both scripts contain the data transformation script needed to clean up the dataset a bit. 
+
+## features
+* plot: basic frequency, type vs. type plots
+* stats: percentages, correlations between mbti ~ hogwarts house
+
+## to-do
+* plot: heatmaps, export to .xlsx for better viewing
+* stats: more enneagram + astrology, tabulate percentages according to the general population percentage (dataset = ?)
